@@ -3,6 +3,11 @@
   "description": "A general purpose Photoshop file parser.",
   "version": "3.1.0",
   "main": "./index.js",
+  "files": [
+    "lib",
+    "shims",
+    "index*.js"
+  ],
   "keywords": [
     "psd",
     "parser",
