@@ -5,6 +5,7 @@
   "main": "./index.js",
   "browser": "./dist/psd.js",
   "files": [
+    "dist",
     "lib",
     "shims",
     "index*.js"
