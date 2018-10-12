@@ -1,5 +1,5 @@
-doc
-examples
-lib
-shims
-test
+/doc
+/examples
+/lib
+/shims
+/test
