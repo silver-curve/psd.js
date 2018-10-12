@@ -18,6 +18,7 @@ task 'compile', 'Compile with browserify for the web', ->
     noParse: [
       'fs'
     ]
+    standalone: 'browser-psd'
   .transform('coffeeify')
   .require('./shims/png.coffee', expose: './image_exports/png.coffee')
   .require('./shims/init.coffee', expose: './psd/init.coffee')
