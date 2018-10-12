@@ -1,4 +1,4 @@
-Resource = require './resource'
+Resource = require './resource.coffee'
 
 module.exports = class Resources
   constructor: (@file) ->

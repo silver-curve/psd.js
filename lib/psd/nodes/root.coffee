@@ -1,7 +1,7 @@
 _     = require 'lodash'
-Node  = require '../node'
-Group = require './group'
-Layer = require './layer'
+Node  = require '../node.coffee'
+Group = require './group.coffee'
+Layer = require './layer.coffee'
 
 module.exports = class Root extends Node
   @layerForPsd: (psd) ->

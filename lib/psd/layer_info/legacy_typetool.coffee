@@ -1,5 +1,5 @@
 _ = require 'lodash'
-TypeTool = require './typetool'
+TypeTool = require './typetool.coffee'
 
 module.exports = class LegacyTypeTool extends TypeTool
   @shouldParse: (key) -> key is 'tySh'

@@ -5,14 +5,14 @@
 # object, which simplifies access for you.
 module.exports = class Layer extends Module
   # Mixins for all of the various data each layer contains.
-  @includes require('./layer/position_channels')
-  @includes require('./layer/blend_modes')
-  @includes require('./layer/mask')
-  @includes require('./layer/blending_ranges')
-  @includes require('./layer/name')
-  @includes require('./layer/info')
-  @includes require('./layer/helpers')
-  @includes require('./layer/channel_image')
+  @includes require('./layer/position_channels.coffee')
+  @includes require('./layer/blend_modes.coffee')
+  @includes require('./layer/mask.coffee')
+  @includes require('./layer/blending_ranges.coffee')
+  @includes require('./layer/name.coffee')
+  @includes require('./layer/info.coffee')
+  @includes require('./layer/helpers.coffee')
+  @includes require('./layer/channel_image.coffee')
 
   constructor: (@file, @header) ->
     @mask = {}

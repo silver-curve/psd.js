@@ -2,9 +2,9 @@ _ = require 'lodash'
 
 module.exports = class ResourceSection
   RESOURCES = [
-    require('./resources/layer_comps')
-    require('./resources/layer_links')
-    require('./resources/resolution_info')
+    require('./resources/layer_comps.coffee')
+    require('./resources/layer_links.coffee')
+    require('./resources/resolution_info.coffee')
   ]
 
   @factory: (resource) ->

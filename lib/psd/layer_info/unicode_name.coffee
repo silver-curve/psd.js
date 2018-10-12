@@ -1,4 +1,4 @@
-LayerInfo = require '../layer_info'
+LayerInfo = require '../layer_info.coffee'
 
 module.exports = class UnicodeName extends LayerInfo
   @shouldParse: (key) -> key is 'luni'

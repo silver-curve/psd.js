@@ -1,2 +1,2 @@
 module.exports =
-  PNG: require('./image_exports/png')
+  PNG: require('./image_exports/png.coffee')

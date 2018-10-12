@@ -1,4 +1,4 @@
-Util = require '../util'
+Util = require '../util.coffee'
 
 module.exports =
   # Every Photoshop document has what we can consider to be the "legacy" name.
