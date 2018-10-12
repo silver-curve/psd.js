@@ -1,7 +1,7 @@
 {
   "name": "browser-psd",
   "description": "A general purpose Photoshop file parser.",
-  "version": "3.2.7",
+  "version": "3.2.8",
   "main": "./dist/psd.js",
   "browser": "./dist/psd.js",
   "homepage": "https://github.com/silver-curve/psd.js",
@@ -13,8 +13,6 @@
   ],
   "files": [
     "dist",
-    "lib",
-    "shims",
     "index*.js"
   ],
   "keywords": [
