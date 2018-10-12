@@ -1,4 +1,4 @@
-BlendMode = require '../blend_mode.coffee'
+BlendMode = require '../blend_mode'
 
 module.exports =
   # Every layer defines how it's blended with the rest of the document.

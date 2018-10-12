@@ -20,19 +20,19 @@
 RSVP = require 'rsvp'
 {Module} = require 'coffeescript-module'
 
-File      = require './psd/file.coffee'
-LazyExecute = require './psd/lazy_execute.coffee'
+File      = require './psd/file'
+LazyExecute = require './psd/lazy_execute'
 
-Header    = require './psd/header.coffee'
-Resources = require './psd/resources.coffee'
-LayerMask = require './psd/layer_mask.coffee'
-Image     = require './psd/image.coffee'
+Header    = require './psd/header'
+Resources = require './psd/resources'
+LayerMask = require './psd/layer_mask'
+Image     = require './psd/image'
 
 module.exports = class PSD extends Module
   @Node:
-    Root: require('./psd/nodes/root.coffee')
+    Root: require('./psd/nodes/root')
 
-  @extends require('./psd/init.coffee')
+  @extends require('./psd/init')
 
   # Creates a new PSD object. Typically you will use a helper method to instantiate
   # the PSD object. However, if you already have the PSD data stored as a Uint8Array,

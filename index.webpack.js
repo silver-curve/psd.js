@@ -1,6 +1,6 @@
-png = require('./shims/png.coffee');
-init = require('./shims/init.coffee');
-psd = require('./lib/psd.coffee');
+png = require('./shims/png');
+init = require('./shims/init');
+psd = require('./lib/psd');
 
 extended = init.extended(psd);
 

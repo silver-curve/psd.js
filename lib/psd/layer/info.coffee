@@ -1,5 +1,5 @@
-LazyExecute = require '../lazy_execute.coffee'
-Util = require '../util.coffee'
+LazyExecute = require '../lazy_execute'
+Util = require '../util'
 
 # This is an incredibly important object because the majority of the layer information
 # is contained in layer info blocks. The keys of this object define how the layer info
@@ -15,26 +15,26 @@ Util = require '../util.coffee'
 # node.get('typeTool').export()
 # ```
 LAYER_INFO = {
-  artboard:               require('../layer_info/artboard.coffee')
-  blendClippingElements:  require('../layer_info/blend_clipping_elements.coffee')
-  blendInteriorElements:  require('../layer_info/blend_interior_elements.coffee')
-  fillOpacity:            require('../layer_info/fill_opacity.coffee')
-  gradientFill:           require('../layer_info/gradient_fill.coffee')
-  layerId:                require('../layer_info/layer_id.coffee')
-  layerNameSource:        require('../layer_info/layer_name_source.coffee')
-  legacyTypetool:         require('../layer_info/legacy_typetool.coffee')
-  locked:                 require('../layer_info/locked.coffee')
-  metadata:               require('../layer_info/metadata.coffee')
-  name:                   require('../layer_info/unicode_name.coffee')
-  nestedSectionDivider:   require('../layer_info/nested_section_divider.coffee')
-  objectEffects:          require('../layer_info/object_effects.coffee')
-  sectionDivider:         require('../layer_info/section_divider.coffee')
-  solidColor:             require('../layer_info/solid_color.coffee')
-  typeTool:               require('../layer_info/typetool.coffee')
-  vectorMask:             require('../layer_info/vector_mask.coffee')
-  vectorOrigination:      require('../layer_info/vector_origination.coffee')
-  vectorStroke:           require('../layer_info/vector_stroke.coffee')
-  vectorStrokeContent:    require('../layer_info/vector_stroke_content.coffee')
+  artboard:               require('../layer_info/artboard')
+  blendClippingElements:  require('../layer_info/blend_clipping_elements')
+  blendInteriorElements:  require('../layer_info/blend_interior_elements')
+  fillOpacity:            require('../layer_info/fill_opacity')
+  gradientFill:           require('../layer_info/gradient_fill')
+  layerId:                require('../layer_info/layer_id')
+  layerNameSource:        require('../layer_info/layer_name_source')
+  legacyTypetool:         require('../layer_info/legacy_typetool')
+  locked:                 require('../layer_info/locked')
+  metadata:               require('../layer_info/metadata')
+  name:                   require('../layer_info/unicode_name')
+  nestedSectionDivider:   require('../layer_info/nested_section_divider')
+  objectEffects:          require('../layer_info/object_effects')
+  sectionDivider:         require('../layer_info/section_divider')
+  solidColor:             require('../layer_info/solid_color')
+  typeTool:               require('../layer_info/typetool')
+  vectorMask:             require('../layer_info/vector_mask')
+  vectorOrigination:      require('../layer_info/vector_origination')
+  vectorStroke:           require('../layer_info/vector_stroke')
+  vectorStrokeContent:    require('../layer_info/vector_stroke_content')
 }
 
 module.exports =

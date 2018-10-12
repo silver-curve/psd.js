@@ -1,5 +1,5 @@
 _    = require 'lodash'
-Node = require '../node.coffee'
+Node = require '../node'
 
 module.exports = class Group extends Node
   type: 'group'

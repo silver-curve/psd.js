@@ -1,5 +1,5 @@
-LayerInfo = require '../layer_info.coffee'
-Descriptor = require '../descriptor.coffee'
+LayerInfo = require '../layer_info'
+Descriptor = require '../descriptor'
 
 module.exports = class Artboard extends LayerInfo
   @shouldParse: (key) -> key is 'artb'

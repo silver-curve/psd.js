@@ -1,5 +1,5 @@
-LayerInfo = require '../layer_info.coffee'
-PathRecord = require '../path_record.coffee'
+LayerInfo = require '../layer_info'
+PathRecord = require '../path_record'
 
 module.exports = class VectorMask extends LayerInfo
   @shouldParse: (key) -> key in ['vmsk', 'vsms']

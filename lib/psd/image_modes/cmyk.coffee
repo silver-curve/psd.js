@@ -1,4 +1,4 @@
-Color = require '../color.coffee'
+Color = require '../color'
 module.exports =
   setCmykChannels: ->
     @channelsInfo = [

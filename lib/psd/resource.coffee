@@ -1,7 +1,7 @@
-Util = require './util.coffee'
+Util = require './util'
 
 module.exports = class Resource
-  @Section: require('./resource_section.coffee')
+  @Section: require('./resource_section')
 
   constructor: (@file) ->
     @id = null

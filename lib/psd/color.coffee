@@ -1,4 +1,4 @@
-Util = require './util.coffee'
+Util = require './util'
 
 module.exports =
   # Converts from the CMYK color space to the RGB color space using

@@ -1,7 +1,7 @@
 _ = require 'lodash'
 parseEngineData = require 'parse-engine-data'
-LayerInfo = require '../layer_info.coffee'
-Descriptor = require '../descriptor.coffee'
+LayerInfo = require '../layer_info'
+Descriptor = require '../descriptor'
 
 module.exports = class TextElements extends LayerInfo
   @shouldParse: (key) -> key is 'TySh'

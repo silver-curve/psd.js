@@ -1,4 +1,4 @@
-Descriptor = require '../descriptor.coffee'
+Descriptor = require '../descriptor'
 
 module.exports = class LayerComps
   id: 1065

@@ -1,7 +1,7 @@
 {jspack} = require 'jspack'
 iconv = require 'iconv-lite'
-Color = require './color.coffee'
-Util = require './util.coffee'
+Color = require './color'
+Util = require './util'
 
 # A file abstraction that stores the PSD file data, and
 # assists in parsing it.

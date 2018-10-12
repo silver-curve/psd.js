@@ -1,4 +1,4 @@
-Mask = require '../mask.coffee'
+Mask = require '../mask'
 
 module.exports =
   # Every layer has a mask section, whether or not the layer actually

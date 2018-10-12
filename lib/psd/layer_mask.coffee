@@ -1,6 +1,6 @@
 _ = require 'lodash'
-Util = require './util.coffee'
-Layer = require './layer.coffee'
+Util = require './util'
+Layer = require './layer'
 
 # The layer mask is the overarching data structure that describes both
 # the layers/groups in the PSD document, and the global mask.

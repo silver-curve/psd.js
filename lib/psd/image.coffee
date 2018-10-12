@@ -1,8 +1,8 @@
 {Module}    = require 'coffeescript-module'
 
-ImageFormat = require './image_format.coffee'
-ImageMode   = require './image_mode.coffee'
-Export      = require './image_export.coffee'
+ImageFormat = require './image_format'
+ImageMode   = require './image_mode'
+Export      = require './image_export'
 
 # Represents the full preview image at the end of the PSD document. For this image, the
 # compression is defined for all channels, and there is no mask data. The width and height

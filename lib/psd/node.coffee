@@ -11,9 +11,9 @@ _        = require 'lodash'
 
 module.exports = class Node extends Module
   # We have a couple of important mixins that provide some really cool functionality.
-  @includes require('./nodes/ancestry.coffee')
-  @includes require('./nodes/search.coffee')
-  @includes require('./nodes/build_preview.coffee')
+  @includes require('./nodes/ancestry')
+  @includes require('./nodes/search')
+  @includes require('./nodes/build_preview')
 
   # There are some common properties that are shared by all Node types. We define them
   # here to DRY up the code a little, especially when exporting data.

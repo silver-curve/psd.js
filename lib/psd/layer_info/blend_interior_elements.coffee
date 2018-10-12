@@ -1,4 +1,4 @@
-LayerInfo = require '../layer_info.coffee'
+LayerInfo = require '../layer_info'
 
 module.exports = class BlendInteriorElements extends LayerInfo
   @shouldParse: (key) -> key is 'infx'

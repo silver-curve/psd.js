@@ -1,4 +1,4 @@
-LayerInfo = require '../layer_info.coffee'
+LayerInfo = require '../layer_info'
 
 # Not 100% sure what the purpose of this key is, but it seems to exist
 # whenever the lsct key doesn't. Parsing this like a layer section

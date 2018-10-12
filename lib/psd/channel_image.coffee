@@ -1,6 +1,6 @@
 _           = require 'lodash'
-Image       = require './image.coffee'
-ImageFormat = require './image_format.coffee'
+Image       = require './image'
+ImageFormat = require './image_format'
 
 # Represents an image for a single layer, which differs slightly in format from
 # the full size preview image.
