@@ -1,10 +1,16 @@
 {
   "name": "browser-psd",
   "description": "A general purpose Photoshop file parser.",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "main": "./dist/psd.js",
   "browser": "./dist/psd.js",
+  "homepage": "https://github.com/silver-curve/psd.js",
+  "licence": "MIT",
   "author": "meltingice",
+  "contributors": [
+    "marvelapp",
+    "bgcrotaz"
+  ],
   "files": [
     "dist",
     "lib",
@@ -20,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:silver-curve/psd.js.git"
+    "url": "https://github.com/silver-curve/psd.js.git"
   },
   "dependencies": {
     "iconv-lite": "~ 0.4.4",
