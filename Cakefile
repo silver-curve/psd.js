@@ -1,5 +1,6 @@
 fs = require 'fs'
 browserify = require 'browserify'
+esmify = require 'esmify'
 UglifyJS = require 'uglify-js'
 Promise = require 'bluebird'
 {spawn, exec} = require 'child_process'
@@ -17,6 +18,9 @@ task 'compile', 'Compile with browserify for the web', ->
   browserify
     noParse: [
       'fs'
+    ]
+    plugin: [ 
+      'esmify'
     ]
   .transform('coffeeify')
   .require('./shims/png.coffee', expose: './image_exports/png.coffee')
